@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   height: 100vh;
+    box-sizing: border-box;
+    background: #D5E1EF;
+}
+
+.apresentacao{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.apresentacao__conteudo{
+    background: #ffffff;
+    width: 320px;
+    border-radius: 20px;
+}
+
+
+.apresentacao__conteudo__imagem{
+    width: 288px;
+    margin: 16px 16px 0px 16px;
+    border-radius: 10px;
+}
+
+.conteudo__paragrafos{
+    margin: 24px 16px 40px 16px;
+}
+
+.conteudo__paragrafos__paragrafo1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #1F314F;
+    
+}
+
+.conteudo__paragrafos__paragrafo2{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7D889E;
+    margin: 16px 16px 0px 16px;
+}
+
+.rodape {
+     font-size: 11px; text-align: center; 
+}
+.rodape a {
+    color: hsl(228, 45%, 44%); 
+}
